@@ -94,7 +94,9 @@
                                 </div>
                                 <div class="text">
                                     <h6>Write email</h6>
-                                    <a href="mailto:needhelp@company.com">needhelp@company.com</a>
+                                    <a href="mailto:info@grandwhitestar.com">
+                                        info@grandwhitestar.com
+                                    </a>
                                 </div>
                             </li>
 

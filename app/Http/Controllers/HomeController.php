@@ -3,6 +3,7 @@
 namespace App\Http\Controllers;
 
 use App\Models\Activitie;
+use App\Models\Job;
 use App\Models\Team;
 use Illuminate\Http\Request;
 
@@ -12,6 +13,7 @@ class HomeController extends Controller
     {
         $teams = Team::all();
         $activities = Activitie::all();
-        return view('welcome', compact('teams', 'activities'));
+        $jobs = Job::all();
+        return view('welcome', compact('teams', 'activities', 'jobs'));
     }
 }

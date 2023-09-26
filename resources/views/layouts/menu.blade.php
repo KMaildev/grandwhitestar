@@ -17,14 +17,11 @@
                             (+95) 09 451590333
                         </a>
                     </li>
-                </ul>
-            </div>
 
-            <div class="top-right">
-                <ul class="useful-links">
-                    <li><a href="#">Help</a></li>
-                    <li><a href="#">Support</a></li>
-                    <li><a href="#">Contact</a></li>
+                    <li>
+                        <i class="fa fa-star"></i>
+                        We are one of the best oversea employment agency in myanmar.
+                    </li>
                 </ul>
             </div>
         </div>
@@ -39,13 +36,13 @@
         </div>
     </div>
 
-    <div class="header-lower" style="box-shadow: rgba(0, 0, 0, 0.45) 0px 25px 20px -20px;">
+    <div class="header-lower" style="box-shadow: rgba(0, 0, 0, 0.45) 0px 25px 20px -20px; background-color: #2c8fcc;">
         <div class="main-box">
             <div class="logo-box">
                 <div class="logo">
                     <a href="{{ route('home') }}">
                         <img src="{{ asset('data/logo.png') }}" alt="" title="Grand White Star Co.,Ltd"
-                            style="width: 130px;">
+                            style="width: 100px;">
                     </a>
                 </div>
             </div>
@@ -155,7 +152,7 @@
                 <div class="outer-box">
                     <a href="tel:+92(8800)9806" class="info-btn">
                         <i class="icon fa fa-phone"></i>
-                        <small>Call Anytime</small><br> + 88 ( 9800 ) 6802
+                        <small>Call Anytime</small><br> (+95) 09 451590333
                     </a>
 
                     <div class="mobile-nav-toggler"><span class="icon lnr-icon-bars"></span></div>
@@ -223,13 +220,13 @@
 
 
     <!-- Sticky Header  -->
-    <div class="sticky-header">
+    <div class="sticky-header" style="height: 80px !important; box-shadow: rgba(0, 0, 0, 0.45) 0px 25px 20px -20px;">
         <div class="auto-container">
             <div class="inner-container">
 
-                <div class="logo">
+                <div class="">
                     <a href="{{ route('home') }}" title="">
-                        <img src="{{ asset('data/logo.png') }}" alt="" title="">
+                        <img src="{{ asset('data/logo.png') }}" alt="" title="" style="width: 90px;">
                     </a>
                 </div>
 
